@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        Pharmacy
+    </div>
+    <div class="navbardrop">
+        <a href="index.html">Home</a>
+        <div class="dropdownnav">
+            <button class="dropbtn">Our Medicines
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdownnav-content">
+                <a href="#">Fever</a>
+                <a href="#">Muscle Pains</a>
+                <a href="#">Cold & Cough</a>
+            </div>
+        </div>
+        <div class="dropdownnav">
+            <button class="dropbtn">Healthe Care
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdownnav-content">
+                <a href="#">Baby Care</a>
+                <a href="#">Skin Care</a>
+                <a href="#">Home Care</a>
+                <a href="#">Personal Care</a>
+                <a href="#">Pet Care</a>
+            </div>
+        </div>
+        <a href="lab_test.html">Lab Test</a>
+    </div>
+    <script src="https://use.fontawesome.com/f59bcd8580.js"></script>
+    <div class="container">
+        <div class="row m-5 no-gutters shadow-lg">
+            <div class="col-md-6 bg-white p-5">
+                <h3>Lab Test Form</h3>
+                <div class="form-style">
+                    <form>
+                        <h5>Contact Detials</h5>
+                        <div class="form-group">
+                            <input type="email" placeholder="Full Name" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <input type="password" placeholder="Patient ID" class="form-control"
+                                id="exampleInputPassword1">
+                            <input type="password" placeholder="Contact Number" class="form-control"
+                                id="exampleInputPassword1">
+                            <input type="email" placeholder="Email ID" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <h5>
+                            Address
+                        </h5>
+                        <div class="form-group">
+                            <input type="email" placeholder="House Number" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <input type="password" placeholder="Street" class="form-control" id="exampleInputPassword1">
+                            <input type="password" placeholder="Area" class="form-control" id="exampleInputPassword1">
+                            <input type="email" placeholder="District" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <h5>
+                            Test Type<br><span class="box">(Check at least one box without fail)</span>
+                        </h5>
+                        <div class="form-group">
+                            <input type="checkbox" class="check"><label>CBC</label><br>
+                            <input type="checkbox" class="check"><label> Complete Urine</label><br>
+                            <input type="checkbox" class="check"><label>Lipid Profile</label><br>
+                            <input type="checkbox" class="check"><label>Thyroid Stimulating Hormone(TSH)</label><br>
+                            <input type="checkbox" class="check"><label>Glucose Test</label><br>
+                        </div>
+                        <h5>
+                            <span class="box">Do you want a hard copy of the report also?</span>
+                        </h5>
+                        <div class="form-group">
+                            <input type="radio" class="check" name="fav_language"><label>Yes</label><br>
+                            <input type="radio" class="check" name="fav_language"><label>No</label><br>
+                        </div>
+                        <h5>
+                            <span class="box">Select Your Comfortable Date and Time</span>
+                        </h5>
+                        <div class="form-group">
+                            <input type="datetime-local" class="check">
+                        </div>
+                        <div class="pb-2">
+                            <button type="submit" class="btn btn-dark font-weight-bold mt-2">Reset</button>
+                            <button type="submit" class="btn btn-dark font-weight-bold mt-2">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+                <img src="Images/Lab-Test/lab-test.jpg" class="img-fluid" style="min-height:100%;" />
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        &copy; <em id="date"></em>copyright
+    </footer>
+</body>
+
+</html>
